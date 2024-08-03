@@ -1,0 +1,277 @@
+/* styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(
+    90deg,
+    rgba(18, 22, 78, 1) 38%,
+    rgba(237, 56, 61, 1) 64%
+  );
+}
+
+.headerpart {
+  display: flex;
+  background: rgb(18, 22, 78);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 22, 78, 1) 38%,
+    rgba(237, 56, 61, 1) 64%
+  );
+}
+
+.headerpart h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.divimag1 {
+  width: 50%;
+  height: 100vh;
+  background-image: url(./assets/images/image\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.divimag1over {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(18, 22, 78, 0.7);
+}
+
+.divimag2over {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(235, 56, 62, 0.5);
+}
+
+.divimag2 {
+  width: 50%;
+  height: 100vh;
+  background-image: url(./assets/images/image3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 30px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+li :hover {
+  border-bottom: 3px solid rgb(0, 0, 0);
+  cursor: pointer;
+  scale: 1.1;
+}
+
+UL :hover {
+  scale: 1.1;
+  transition: 4ms;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2em 0;
+  background: rgb(196, 196, 196);
+  background: linear-gradient(
+    0deg,
+    rgba(196, 196, 196, 1) 29%,
+    rgba(237, 56, 61, 1) 89%
+  );
+}
+
+.content h1 {
+  background: rgb(237, 56, 61);
+  background: linear-gradient(
+    90deg,
+    rgba(237, 56, 61, 1) 15%,
+    rgba(196, 196, 196, 1) 54%,
+    rgba(237, 56, 61, 1) 89%
+  );
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  padding-top: 20px;
+  font-size: 36px;
+  color: white;
+}
+
+.product-card {
+  background: #ffffff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+  width: calc(25% - 2em);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: 300px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1em;
+  animation-duration: 5s;
+  transition: 3s;
+  animation-iteration-count: infinite;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pluscontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  background-size: COVER;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(./assets/images/imag4.jpg);
+}
+
+.extra {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-size: 40px;
+  background-color: rgba(128, 128, 128, 0.635);
+  backdrop-filter: blur(30px);
+}
+
+.extra h2 {
+  font-size: 50px;
+  TEXT-ALIGN: center;
+}
+
+.extra span {
+  font-size: 50px;
+  color: yellow;
+}
+
+.product-card h3 {
+  margin: 0.5em 0;
+}
+
+.product-card p {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.product-card button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.headerpart button {
+  max-width: 158px;
+  padding: 16px 0px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 64.5px;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  border: 1px solid #1a1818;
+}
+
+
+
+.divimag1over,
+.divimag2over {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.iconss i {
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  .product-card {
+    width: calc(50% - 2em);
+  }
+}
+
+@media (max-width: 480px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .product-card {
+    width: 100%;
+  }
+
+  .extra {
+    width: 100%;
+   
+  }
+
+  .extra h2 {
+    font-size: 30px;
+    transition: 4s;
+  }
+}

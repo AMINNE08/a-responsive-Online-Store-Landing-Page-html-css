@@ -1,0 +1,38 @@
+# Online Store Landing Page
+
+## Overview
+
+This project is a responsive landing page for an online store, designed to be visually appealing and functional across various devices.
+
+## Screenshots
+
+### Desktop View
+![Desktop View](./screenshots/desktop-view.png)
+
+### Mobile View
+![Mobile View](./screenshots/mobile-view.png)
+
+## Design Choices
+
+### HTML Structure
+- **Header**: The header includes a navigation menu with links to different sections of the page. This helps users easily navigate the website.
+- **Hero Section**: The hero section features two background images with overlay buttons for "Shop Mens" and "Shop Womens". This design visually divides the page and makes navigation intuitive.
+- **Product Section**: The product section features cards for each product. Each card includes an image, product name, brief description, and a "Shop Now" button. This layout presents the products in a clean and organized manner.
+- **Review Section**: A section highlighting the high number of five-star reviews to build credibility.
+- **Footer**: The footer contains basic information and social media icons, providing a consistent look and feel across the website.
+
+### CSS Styling
+- **Typography**: The `Playfair Display` font was chosen for its elegant and modern appearance. It enhances readability and maintains a professional look.
+- **Colors**: A vibrant color palette with gradients from dark blue to red was used to create a visually engaging experience. The use of a dark background for the header and footer creates contrast, making the content stand out.
+- **Layout**: Flexbox was used extensively to create a flexible and responsive layout that adjusts based on the screen size.
+- **Buttons**: The buttons are styled with a dark background and white text, making them prominent and easy to find. The hover effects add interactivity and visual feedback.
+
+### Responsive Design
+- **Media Queries**: Media queries are used to adjust the layout for different screen sizes. For example, product cards are displayed in a single column on smaller screens to ensure readability and usability.
+- **Flexbox**: Flexbox was utilized to create a flexible and responsive layout for the product section, allowing it to adjust and align items based on the screen size.
+
+### Animations and Enhancements
+- **Animations**: CSS animations (e.g., `animate__pulse`) are used to add subtle movements to the product images, enhancing the user experience.
+- **Boxicons**: Boxicons are used for social media icons in the footer, ensuring a cohesive and modern look.
+
+
